@@ -1,10 +1,12 @@
 [tool]
-id = "com.thelightphone.app"
-label = "Light SDK Tool"
+id = "io.github.m186924.snake"
+label = "Snake"
 versionCode = 1
 versionName = "1.0.0"
-permissions = ["android.permission.INTERNET"]
+# Fully offline: no network, and the best score never leaves the phone.
+permissions = []
 capabilities = []
+orientation = "portrait"
 # for the LightOS emulator, use the line below and build with -DlightSdk.allowAltServerPackage=true
 # serverPackage = "com.thelightphone.sdk.emulator"
 serverPackage = "com.lightos"
